@@ -38,9 +38,7 @@ b'227 Entering Passive Mode (127,0,0,1,161,195).\r\n'
 Calculate the port number following the received code above:
 (127,0,0,1, 161 = x, 195 = y)
 Data port number = (x * 256) + y, so:
->>> 161 * 256
-41216
->>> 41216 + 195
+>>> (161 * 256) + 195
 41411
 
 The open data port's number of the server for sending data is: 41411.
@@ -70,9 +68,7 @@ Entering passive mode again for the new data port number:
 b'227 Entering Passive Mode (127,0,0,1,54,158).\r\n'
 
 Calculate the port number:
->>> 54 * 256
-13824
->>> 13824 + 158
+>>> (54 * 256) + 158
 13982
 
 Make a new socket, the third (r), for grabbing the content of the file:
