@@ -15,4 +15,4 @@ Change NO to YES on the proper line:
 
 The test file ('test.txt') is located in /srv/ftp directory, the default directory of vsftpd, with the text: 'this is the content of the test file for testing manually commanded python ftp client\n' (as you will see at the end of the process, below).
 
-Open the text file ('manually_commanded_ftp_client.txt'), follow the instructions and enjoy the process!
+Open the py file ('manually_commanded_ftp_client.py', the extension is py in order the repository to show the Python genre), follow the instructions and enjoy the process!
